@@ -1,0 +1,4868 @@
+{
+  "meta": {
+    "title": "Ajai / Rotimi Family History",
+    "origin": "Ara-Ikole, Ekiti, Nigeria",
+    "compiledBy": "Solomon Olufemi Patrick Ajai",
+    "sourceNote": "Seed data extracted from the 2010 Personal Ancestral File (PAF 5) database. This JSON is the new source of truth going forward.",
+    "rootPersonId": "I62",
+    "schemaVersion": 1,
+    "revision": 0,
+    "audit": []
+  },
+  "people": [
+    {
+      "id": "I1",
+      "given": "Solomon Olufemi Patrick",
+      "surname": "AJAI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": "TALL MANLY",
+      "birth": {
+        "date": "1942-12-25",
+        "approx": false,
+        "place": "ARA-IKOLE EKITI, NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "ARA IKOLE EKITI NIGERIA"
+      },
+      "death": {
+        "date": "2007-01-10",
+        "approx": false,
+        "place": "HEMEL HEMPSTEAD"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": "Peeps - The best dad in the world",
+      "photo": null,
+      "parents": "F8",
+      "spouseFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F5",
+        "F47"
+      ]
+    },
+    {
+      "id": "I2",
+      "given": "David Olutu AJAYI",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": "CHIEF OLOMODARA",
+      "suffix": null,
+      "nickname": "MY HERO",
+      "epithet": "TALL AND VERY HANDSOME",
+      "birth": {
+        "date": "1881",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1977",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": {
+        "date": "1977",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "causeOfDeath": "NATURAL (DIED IN SLEEP)",
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F9",
+      "spouseFamilies": [
+        "F8",
+        "F26",
+        "F50",
+        "F51",
+        "F55",
+        "F56",
+        "F57",
+        "F59"
+      ]
+    },
+    {
+      "id": "I3",
+      "given": "Susan Mary Linda",
+      "surname": "ASHTON",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1955-02-02",
+        "approx": false,
+        "place": "BLACKBURN, LANCASHIRE, ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F6",
+      "spouseFamilies": [
+        "F5"
+      ]
+    },
+    {
+      "id": "I4",
+      "given": "Jason Femi",
+      "surname": "AJAI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1973-12-14",
+        "approx": false,
+        "place": "BLACKBURN, ENGLAND"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "BLACKBURN, ENGLAND"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F5",
+      "spouseFamilies": [
+        "F10"
+      ]
+    },
+    {
+      "id": "I5",
+      "given": "Kelly Louise Kehinde",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1976-08-29",
+        "approx": false,
+        "place": "SKELMESDALE, ENGLAND"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "SKELMESDALE, ENGLAND"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F5",
+      "spouseFamilies": [
+        "F49"
+      ]
+    },
+    {
+      "id": "I6",
+      "given": "Luke Ojo",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": {
+        "date": "1990",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F11",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I7",
+      "given": "Abigail Omole AJAYI",
+      "surname": "OREDOLA",
+      "sex": "F",
+      "title": null,
+      "suffix": "OGUNSAKIN",
+      "nickname": null,
+      "epithet": "TALL ELEGANT BEAUTIFUL",
+      "birth": {
+        "date": "1930",
+        "approx": true,
+        "place": "ODO ARA, IKOLE, EKITI, NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA, IKOLE, EKITI, NIGERIA"
+      },
+      "death": {
+        "date": "1958-02-05",
+        "approx": false,
+        "place": "ODO ARA IKOLE, EKITI NIGERIA"
+      },
+      "burial": {
+        "date": "1958-02-05",
+        "approx": false,
+        "place": "ODO ARA, IKOLE, EKITI, NIGERIA"
+      },
+      "causeOfDeath": "HEAMORAGE",
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F8",
+      "spouseFamilies": [
+        "F12"
+      ]
+    },
+    {
+      "id": "I9",
+      "given": "Osunyemi",
+      "surname": "OKANGI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1856",
+        "approx": true,
+        "place": "IGBEMO, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1962",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": "1962",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F13",
+        "F14"
+      ]
+    },
+    {
+      "id": "I10",
+      "given": "Tunde",
+      "surname": "ADEFISAN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1956",
+        "approx": true,
+        "place": "ABEOKUTA, NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F15"
+      ]
+    },
+    {
+      "id": "I11",
+      "given": "Michell Tokunbo",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1960-10-24",
+        "approx": false,
+        "place": "BLACKBURN ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": "Michell was two months old when I met her mum during 1961 Christmas holidays. I was working nights at Roe-Lee Mills while the college was on holidays. I got off night shift and went straight to bed until I was woken up by the cry of a baby esuing from my sitting room. I was living at number 40 London  road Blacburn. The whole three story building was occupied by students. I occupied the whole first floor comprising of bedroom, large sitting room, common dinning-room, common kitchen and a dual bathroom cum toilet. The other students have bedrooms only on the second and third floor. There was an attic-room which was rarely occupied because it was so cold. As far as mine memory serves me, all the students were from the CommonWealth which explains why the attic was rarely occupied. There was a birthday party at the weedend and Sandra was among the revelers. I am not sure wheather she was invited or she was just a gate crasher, Subsquent events led me to believe that she could only have been a gate crasher.",
+      "photo": null,
+      "parents": "F3",
+      "spouseFamilies": [
+        "F16"
+      ]
+    },
+    {
+      "id": "I12",
+      "given": "Joke Ige",
+      "surname": "ADEFISAN",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1985-05-10",
+        "approx": false,
+        "place": "AGEGE LAGOS NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F15",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I13",
+      "given": "Gulumser Murat",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1971-11-01",
+        "approx": false,
+        "place": "Turkey"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F10"
+      ]
+    },
+    {
+      "id": "I14",
+      "given": "Alara Jade Murat",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "2006-07-01",
+        "approx": false,
+        "place": "SYDNEY, AUSTRALIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F10",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I15",
+      "given": "Sandra Mary",
+      "surname": "PARKS",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1943-03-26",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F17",
+      "spouseFamilies": [
+        "F3"
+      ]
+    },
+    {
+      "id": "I16",
+      "given": "Rotimi Olotu",
+      "surname": "ARIYO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1841",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F20",
+      "spouseFamilies": [
+        "F9",
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "id": "I17",
+      "given": "Osanyintola",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1852",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1945",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1945",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F9"
+      ]
+    },
+    {
+      "id": "I18",
+      "given": "Samuel Olotu Ojo",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": "THE WISE MAN",
+      "epithet": "HUMBLE AND HANDSOME",
+      "birth": {
+        "date": "1927",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "2000",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "2000",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F18",
+      "spouseFamilies": [
+        "F7",
+        "F11",
+        "F21",
+        "F22",
+        "F23",
+        "F24",
+        "F60"
+      ]
+    },
+    {
+      "id": "I19",
+      "given": "Fagoroye,",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F54"
+      ]
+    },
+    {
+      "id": "I20",
+      "given": "Yemi",
+      "surname": "ADEFISAN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1978-08-19",
+        "approx": false,
+        "place": "ABEOKUTA NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F15",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I21",
+      "given": "Victoria Dada",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1931",
+        "approx": true,
+        "place": "OKE-ETA ARA IKOLE EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F11"
+      ]
+    },
+    {
+      "id": "I22",
+      "given": "Carlie Symone",
+      "surname": "BROOKS",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981-11-02",
+        "approx": false,
+        "place": "PRESTON, LANCASHIRE"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F36"
+      ]
+    },
+    {
+      "id": "I23",
+      "given": "Ian",
+      "surname": "McMORRAN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965-04-21",
+        "approx": false,
+        "place": "Edinburugh, SCOTLAND"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F16"
+      ]
+    },
+    {
+      "id": "I24",
+      "given": "Paul",
+      "surname": "KAY",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962-12-13",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F28"
+      ]
+    },
+    {
+      "id": "I25",
+      "given": "Leighla",
+      "surname": "KAY",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1983-03-06",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F28",
+      "spouseFamilies": [
+        "F29"
+      ]
+    },
+    {
+      "id": "I26",
+      "given": "Jordan James",
+      "surname": "KAY",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1989-05-31",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F28",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I27",
+      "given": "Nuratu Adeniyi",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": "TALL, BEADY AND BEAUTIFUL",
+      "birth": {
+        "date": "1938",
+        "approx": true,
+        "place": "OKE IGBORE ABEOKUTA NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1978-08-19",
+        "approx": false,
+        "place": "IFO NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": "NATURAL CAUSES",
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F2"
+      ]
+    },
+    {
+      "id": "I28",
+      "given": "Nike",
+      "surname": "ADEFISAN",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1983-05-10",
+        "approx": false,
+        "place": "AGEGE LAGOS NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F15",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I29",
+      "given": "Lorraine Kim Modupe",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962-02-19",
+        "approx": false,
+        "place": "BLACKBURN LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F3",
+      "spouseFamilies": [
+        "F27",
+        "F28",
+        "F30",
+        "F31",
+        "F66"
+      ]
+    },
+    {
+      "id": "I30",
+      "given": "Tracy Tolabo",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": "MRS",
+      "suffix": "HINGLEY",
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1963-08-12",
+        "approx": false,
+        "place": "BLACKBURN LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F3",
+      "spouseFamilies": [
+        "F32"
+      ]
+    },
+    {
+      "id": "I31",
+      "given": "Ondria Kehinde",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1964-10-30",
+        "approx": false,
+        "place": "BLACKBURN LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F3",
+      "spouseFamilies": [
+        "F33"
+      ]
+    },
+    {
+      "id": "I32",
+      "given": "Lindsay",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965-11-02",
+        "approx": false,
+        "place": "BLACKBURN LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F3",
+      "spouseFamilies": [
+        "F34"
+      ]
+    },
+    {
+      "id": "I33",
+      "given": "Keiran",
+      "surname": "KAY",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1999-12-27",
+        "approx": false,
+        "place": "EMMERCOMPASCUUM NETHERLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F29",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I34",
+      "given": "Jolade",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1938",
+        "approx": true,
+        "place": "IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F1"
+      ]
+    },
+    {
+      "id": "I35",
+      "given": "Kayode",
+      "surname": "AJAI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1957",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1962",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F1",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I36",
+      "given": "Johan Frederick",
+      "surname": "TIJHOF",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965-11-20",
+        "approx": false,
+        "place": "EMMEN NETHERLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F4",
+      "spouseFamilies": [
+        "F30"
+      ]
+    },
+    {
+      "id": "I37",
+      "given": "Omodupe Adeniyi",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1958-08-11",
+        "approx": false,
+        "place": "ABEOKUTA NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F2",
+      "spouseFamilies": [
+        "F15"
+      ]
+    },
+    {
+      "id": "I38",
+      "given": "",
+      "surname": "FAGBEKE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F59"
+      ]
+    },
+    {
+      "id": "I40",
+      "given": "Madam Unice Asake",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F57"
+      ]
+    },
+    {
+      "id": "I41",
+      "given": "",
+      "surname": "ABIORANI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F56"
+      ]
+    },
+    {
+      "id": "I42",
+      "given": "Patricia Ronke",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1963-09-20",
+        "approx": false,
+        "place": "BLACKBURN"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F47",
+      "spouseFamilies": [
+        "F48"
+      ]
+    },
+    {
+      "id": "I43",
+      "given": "Dean Richards",
+      "surname": "DAVIS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1986-01-06",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F16",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I44",
+      "given": "Ezekiel Olugbenga",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1960-11-10",
+        "approx": false,
+        "place": "OKE ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F1",
+      "spouseFamilies": [
+        "F35"
+      ]
+    },
+    {
+      "id": "I45",
+      "given": "Agbolarin",
+      "surname": "OKANGI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1985-05-16",
+        "approx": false,
+        "place": "EBUTEMETA LAGOS"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F35",
+      "spouseFamilies": [
+        "F37"
+      ]
+    },
+    {
+      "id": "I46",
+      "given": "Toyin",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1989-09-19",
+        "approx": false,
+        "place": "EBUTEMETA LAGOS"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F35",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I47",
+      "given": "Olukayode",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1994-03-31",
+        "approx": false,
+        "place": "EBUTEMETA LAGOS"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F35",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I48",
+      "given": "Alfred",
+      "surname": "PARKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1915-09-29",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": {
+        "date": "1989-08-17",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "burial": {
+        "date": "1989-08-17",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F17"
+      ]
+    },
+    {
+      "id": "I49",
+      "given": "Constance May",
+      "surname": "PARKS",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1913-03-24",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F17"
+      ]
+    },
+    {
+      "id": "I50",
+      "given": "Benjamine",
+      "surname": "HINGLEY",
+      "sex": "M",
+      "title": null,
+      "suffix": "HINGLEY",
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1960-03-17",
+        "approx": false,
+        "place": "WARRINGTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F32"
+      ]
+    },
+    {
+      "id": "I51",
+      "given": "Joshua",
+      "surname": "HINGLEY",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1993-04-09",
+        "approx": false,
+        "place": "WARRINGTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F32",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I52",
+      "given": "Emily Jan",
+      "surname": "HINGLEY",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1997-08-18",
+        "approx": false,
+        "place": "WARRINGTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F32",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I53",
+      "given": "Wayde Egmond",
+      "surname": "BROOKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981-05-31",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F33",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I54",
+      "given": "Cerease",
+      "surname": "BROOKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1985-06-28",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F33",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I55",
+      "given": "Michaella",
+      "surname": "BROOKS",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1992-03-25",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F33",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I56",
+      "given": "Wesley",
+      "surname": "MARSHALL-BROOKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981-10-16",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": {
+        "date": "2008-05-13",
+        "approx": false,
+        "place": null
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F34",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I57",
+      "given": "Tamara",
+      "surname": "BROOKS",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1987-05-12",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F34",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I58",
+      "given": "Corey Arron Lee",
+      "surname": "BROOKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1998-03-04",
+        "approx": false,
+        "place": "PRESTON LANCASHIRE ENGLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F36",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I59",
+      "given": "Taylor",
+      "surname": "BROOKS",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "2003-03-04",
+        "approx": false,
+        "place": "PRESTON, LANCASHIRE"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F36",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I60",
+      "given": "Yan Fredrih",
+      "surname": "TIJHOF",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1937-01-15",
+        "approx": false,
+        "place": "EMMEN NETHERLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F4"
+      ]
+    },
+    {
+      "id": "I61",
+      "given": "Berendina Heida",
+      "surname": "TIJHOF",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1937-02-10",
+        "approx": false,
+        "place": "EMMEN NETHERLAND"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F4"
+      ]
+    },
+    {
+      "id": "I62",
+      "given": "",
+      "surname": "ARIYO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F20"
+      ]
+    },
+    {
+      "id": "I63",
+      "given": "ANIFOWOSE",
+      "surname": "OKANGI",
+      "sex": "M",
+      "title": "CHIEF",
+      "suffix": null,
+      "nickname": "ELEJOKA / THE HUNTER",
+      "epithet": "SLIM AVERAGE VERY ENERGETIC",
+      "birth": null,
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": "64",
+      "story": null,
+      "photo": null,
+      "parents": "F13",
+      "spouseFamilies": [
+        "F38",
+        "F39",
+        "F40",
+        "F41",
+        "F61"
+      ]
+    },
+    {
+      "id": "I64",
+      "given": "Omopariola Omole",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": "MADAM",
+      "suffix": "OGUNGBEMILE",
+      "nickname": null,
+      "epithet": "TALL ELEGANT, BEAUTIFUL/ WITH FACE TRIBAL MARKS",
+      "birth": {
+        "date": "1842",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1943",
+        "approx": true,
+        "place": "IJESHA -ISU IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F9",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I65",
+      "given": "ONIGBEMO",
+      "surname": "",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "IGBEMO EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "IGBEMO EKITI NIGERIA"
+      },
+      "burial": {
+        "date": null,
+        "approx": false,
+        "place": "IGBEMO EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F14"
+      ]
+    },
+    {
+      "id": "I66",
+      "given": "Adegbolarin omoje",
+      "surname": "OKANGI",
+      "sex": "F",
+      "title": "MADAM",
+      "suffix": "AJAYI",
+      "nickname": "THE GOOD SAMARITAN",
+      "epithet": "PETITE, BEAUTIFUL LIGHT COMPLETION",
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1945",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1945",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": "SMALL POX EPIDEMIC",
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F13",
+      "spouseFamilies": [
+        "F8",
+        "F18"
+      ]
+    },
+    {
+      "id": "I67",
+      "given": "Alabutu",
+      "surname": "OKANGI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": null,
+        "approx": false,
+        "place": "IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F13",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I68",
+      "given": "Jolade NEEOKANGI",
+      "surname": "ABIJALU",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1975",
+        "approx": true,
+        "place": "OKE-IJEBU IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": null,
+        "approx": false,
+        "place": "OKE-IJEBU IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F13",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I69",
+      "given": "Abigail Araeni",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1926",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1962",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F54",
+      "spouseFamilies": [
+        "F26"
+      ]
+    },
+    {
+      "id": "I70",
+      "given": "Ebenezer Abiodun",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": "MR",
+      "suffix": "AJAYI",
+      "nickname": null,
+      "epithet": "HANDSOME GENTLE PLEASANT",
+      "birth": {
+        "date": "1944",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1976-10-28",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1976-10-28",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": "HEAVY FALL",
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F8",
+      "spouseFamilies": [
+        "F42"
+      ]
+    },
+    {
+      "id": "I71",
+      "given": "Paul Ayo",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1931-01-01",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1995-11-23",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1995-11-23",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F8",
+      "spouseFamilies": [
+        "F43",
+        "F44",
+        "F58"
+      ]
+    },
+    {
+      "id": "I72",
+      "given": "Ruth Funmilola AJAYI",
+      "surname": "BIODUN",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1941-01-01",
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F8",
+      "spouseFamilies": [
+        "F45"
+      ]
+    },
+    {
+      "id": "I73",
+      "given": "David",
+      "surname": "OGUNSAKIN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1927",
+        "approx": true,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F12"
+      ]
+    },
+    {
+      "id": "I74",
+      "given": "Joseph",
+      "surname": "OGUNSAKIN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1952",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F12",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I75",
+      "given": "Akinola",
+      "surname": "OGUNSAKIN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1954",
+        "approx": true,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1960",
+        "approx": true,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1960",
+        "approx": true,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F12",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I76",
+      "given": "Omotolabo",
+      "surname": "OGUNSAKIN",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1958-01-27",
+        "approx": false,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F12",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I77",
+      "given": "Olofunmilayo",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1956",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I78",
+      "given": "Omowumi",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1958",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I79",
+      "given": "Foluso Ajibulu",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1960",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I80",
+      "given": "Iyabo",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I81",
+      "given": "Oluwadare",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I82",
+      "given": "Olayinka Adelelye",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1966",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I83",
+      "given": "Olasehinde",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1970",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I84",
+      "given": "Sunday",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1975",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I85",
+      "given": "Elizabeth",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1934",
+        "approx": true,
+        "place": "OKE ETA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F43"
+      ]
+    },
+    {
+      "id": "I86",
+      "given": "Alice",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1940",
+        "approx": true,
+        "place": "IJESHA ISU IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F44"
+      ]
+    },
+    {
+      "id": "I87",
+      "given": "Ebun Elegbeleye",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1960",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I88",
+      "given": "Folorunso",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1984",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I89",
+      "given": "Olabisi",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1964",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I90",
+      "given": "Olurunda",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1967",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I91",
+      "given": "Olaniyi",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1974",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I92",
+      "given": "Debora",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F42"
+      ]
+    },
+    {
+      "id": "I93",
+      "given": "Oluyemi",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1976",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I94",
+      "given": "Olutayo",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1982",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F44",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I95",
+      "given": "Mojisola",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1966",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1972",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1972",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F42",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I96",
+      "given": "Olumide Olukayode",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1967",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F42",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I97",
+      "given": "Adebayo",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1969",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F42",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I98",
+      "given": "Olufemi Ojo",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1972",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F42",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I99",
+      "given": "Victoria Aina Ojo",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1936",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F22"
+      ]
+    },
+    {
+      "id": "I100",
+      "given": "Monisola Ojo",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1948",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1993",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "burial": {
+        "date": "1993",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F11",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I101",
+      "given": "Modupeola ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1977",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F11",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I102",
+      "given": "Olajide ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1973",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F11",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I103",
+      "given": "Olagoke",
+      "surname": "FATOYE",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1969",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F45",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I104",
+      "given": "Oluwafunmilayo ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F11",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I105",
+      "given": "Felicia Omoleji",
+      "surname": "OJO ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1931",
+        "approx": true,
+        "place": "ODO IRERUN ARA-IKOLE EKITI"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F21"
+      ]
+    },
+    {
+      "id": "I106",
+      "given": "DEBORA ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1952",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F21",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I107",
+      "given": "OLUYEMISI ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1954",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F21",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I108",
+      "given": "OLUWADARE ILESANMI ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F21",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I109",
+      "given": "OLUBUNMI",
+      "surname": "FATOYE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1973",
+        "approx": true,
+        "place": "ILORIN KWARA STATE NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F45",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I110",
+      "given": "JIDE",
+      "surname": "FATOYE",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F45"
+      ]
+    },
+    {
+      "id": "I111",
+      "given": "AYE",
+      "surname": "ANIFOWOSE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1926",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1966",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": "1966",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F39"
+      ]
+    },
+    {
+      "id": "I112",
+      "given": "OGUNROBI",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1924",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "1924"
+      },
+      "death": {
+        "date": "1988",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "burial": {
+        "date": "1988",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F38"
+      ]
+    },
+    {
+      "id": "I114",
+      "given": "OLAJUMOKE",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1950",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F21",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I115",
+      "given": "ADENIYI",
+      "surname": "ADEFISAN",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F15",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I116",
+      "given": "ILESANMI ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1962",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F22",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I117",
+      "given": "MOJISOLA ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1964",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1964",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F22",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I118",
+      "given": "FUNMILAYO ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1965",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F22",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I119",
+      "given": "OLABISI",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F22",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I120",
+      "given": "ELIZABETH TOLANI ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1948",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1948",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F23"
+      ]
+    },
+    {
+      "id": "I121",
+      "given": "IYABO ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1980",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1980",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F23",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I122",
+      "given": "BUKOLA ROTIMI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F23",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I123",
+      "given": "OJO ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1980",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1980",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F23",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I124",
+      "given": "BEATRICE ROTIMI",
+      "surname": "IBIDOLAPO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1949",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "christening": {
+        "date": "1949",
+        "approx": true,
+        "place": "ODO ARA IKOLE EKITI NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F24"
+      ]
+    },
+    {
+      "id": "I125",
+      "given": "OLADELE ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F24",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I126",
+      "given": "DADA ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F24",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I127",
+      "given": "BAYODE ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": "1981",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F24",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I128",
+      "given": "OJO ROTIMI",
+      "surname": "OJO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F24",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I129",
+      "given": "IWE",
+      "surname": "ANIFOWOSE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1936",
+        "approx": true,
+        "place": "ISANPAKUNDE IKOLE-EKITI NIGERIA"
+      },
+      "christening": {
+        "date": "1936",
+        "approx": true,
+        "place": "ISANPAKUNDE IKOLE-EKITI NIGERIA"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F40"
+      ]
+    },
+    {
+      "id": "I130",
+      "given": "IGE",
+      "surname": "ANIFOWOSE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1938",
+        "approx": true,
+        "place": null
+      },
+      "christening": {
+        "date": "1938",
+        "approx": true,
+        "place": null
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F41"
+      ]
+    },
+    {
+      "id": "I131",
+      "given": "JANET ARIYO",
+      "surname": "ROTIMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1843",
+        "approx": true,
+        "place": "OKE ARA, ARA IKOLE EKITI  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1960",
+        "approx": true,
+        "place": "OKE-ORIN IKOLE EKITI"
+      },
+      "burial": {
+        "date": null,
+        "approx": false,
+        "place": "OKE-ORIN IKOLE EKITI"
+      },
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F9",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I132",
+      "given": "AJIBOLA",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1940",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1953",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F50",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I133",
+      "given": "OLAWUMI",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1995",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F55",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I134",
+      "given": "TARIGINA",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1946",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1953",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F56",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I135",
+      "given": "ANUOLUWA",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1969",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1999",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F57",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I136",
+      "given": "Titilayo",
+      "surname": "Ajayi",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1943",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": null,
+        "approx": false,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F51",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I137",
+      "given": "YEMISI",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1945",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI,  NIGERIA"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F51",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I138",
+      "given": "MAAGUN,",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F55"
+      ]
+    },
+    {
+      "id": "I139",
+      "given": "OLUSHOLA",
+      "surname": "AJAYI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1965",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1975",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F43",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I140",
+      "given": "OMOYENI",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1920",
+        "approx": true,
+        "place": "IGBEMO, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1992",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": "My dearest beloved Omoyeni was married to my uncle Agbelayi of Igbemo. He died in his prime and my brother Samuel Olotu Ojo Rotimi inherited Omoyeni according to our custorm. This custorm is almost extinct which is a shame because it dates back to the days of Abraham whereby widows pass on to there nearest relative. Ruth, Naomi's daughter-in-law was a good example of how the custorm was. The children of the deceased are automatically provided with a father who loves and cares for them; almost and sometimes more than their real dead father.\r\n\r\nI was told that Omoyeni gave me my first name some time after I was born. I was deliberately not given a name at birth because my parents were almost certain that I would not live given that they lost a few children before  me shortly after they were born.\r\n\r\nI have a very  strong spiritual connection with Omoyeni. Forgive me for not including your name on the first list. I love you \"Mum\" Omoyeni. You have always been and feel like my mum. I will always love and cherish you my dearest beloved Omoyeni.",
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F60"
+      ]
+    },
+    {
+      "id": "I141",
+      "given": "Nicholas Gerard",
+      "surname": "SLESSOR",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1974-12-17",
+        "approx": false,
+        "place": "Bradford, England"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F65",
+      "spouseFamilies": [
+        "F49"
+      ]
+    },
+    {
+      "id": "I143",
+      "given": "EZEKIEL OLORUNTOLA",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1928",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1958",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F19",
+      "spouseFamilies": [
+        "F62"
+      ]
+    },
+    {
+      "id": "I144",
+      "given": "OJO ODOFIN",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1982",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F19",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I145",
+      "given": "YEYE",
+      "surname": "ODE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1850",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1948",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F46"
+      ]
+    },
+    {
+      "id": "I146",
+      "given": "ARO",
+      "surname": "AWORO",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1926",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1940",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F63"
+      ]
+    },
+    {
+      "id": "I147",
+      "given": "MARY",
+      "surname": "ARO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1930",
+        "approx": true,
+        "place": "OKE-ETA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1977",
+        "approx": true,
+        "place": null
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F63",
+      "spouseFamilies": [
+        "F52"
+      ]
+    },
+    {
+      "id": "I148",
+      "given": "YEWANDE",
+      "surname": "ARO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1953",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1970",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F63",
+      "spouseFamilies": [
+        "F53"
+      ]
+    },
+    {
+      "id": "I149",
+      "given": "OGUNJOKE",
+      "surname": "OJO",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1921",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1990",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F64"
+      ]
+    },
+    {
+      "id": "I152",
+      "given": "MORENIKE",
+      "surname": "AJAYI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F51"
+      ]
+    },
+    {
+      "id": "I153",
+      "given": "David",
+      "surname": "ALABI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "ILASO, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1999",
+        "approx": true,
+        "place": "ILASO, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": []
+    },
+    {
+      "id": "I154",
+      "given": "Ajiboye",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1926",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1999",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F59",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I155",
+      "given": "Fagoroyo",
+      "surname": "OKANGI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1918",
+        "approx": true,
+        "place": null
+      },
+      "christening": null,
+      "death": {
+        "date": "1964",
+        "approx": true,
+        "place": "ODO-ARA, IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": "MARRIAGE: Maried to Adeleye of Ilaso. Her eldest is Abigail who later married my dad, David Ajayi Rotimi. There was an unspoken rivalry between her and my mum. the rivalry was always initiated by her. It was never encouraged or didcouraged by my mum, Adegbolarin Omoje Okangi.",
+      "photo": null,
+      "parents": "F61",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I156",
+      "given": "Emmanuel Agbeye",
+      "surname": "ROTIMI",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1944",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "christening": null,
+      "death": {
+        "date": "1961",
+        "approx": true,
+        "place": "OKE-ARA, ARA-IKOLE, EKITI, NIGERIA"
+      },
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F62",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I157",
+      "given": "Florence Jenyo",
+      "surname": "ADELEKE",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": null,
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": null,
+      "spouseFamilies": [
+        "F47"
+      ]
+    },
+    {
+      "id": "I158",
+      "given": "Oluwatosin",
+      "surname": "SALAMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1999-09-16",
+        "approx": false,
+        "place": "Croydon, London"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F48",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I159",
+      "given": "Stella Ibijoke",
+      "surname": "AJAI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "1981-09-18",
+        "approx": false,
+        "place": "LAGOS"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F48",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I160",
+      "given": "Taiwo",
+      "surname": "SALAMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "2005-09-16",
+        "approx": false,
+        "place": "Croydon, London"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F48",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I161",
+      "given": "Kehinde",
+      "surname": "SALAMI",
+      "sex": "F",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": "2005-09-16",
+        "approx": false,
+        "place": "Croydon, London"
+      },
+      "christening": null,
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F48",
+      "spouseFamilies": []
+    },
+    {
+      "id": "I163",
+      "given": "Caelan Solomon",
+      "surname": "SLESSOR",
+      "sex": "M",
+      "title": null,
+      "suffix": null,
+      "nickname": null,
+      "epithet": null,
+      "birth": {
+        "date": null,
+        "approx": false,
+        "place": "Freshwater, NSW, Australia"
+      },
+      "christening": {
+        "date": null,
+        "approx": false,
+        "place": "Freshwater, NSW, Australia"
+      },
+      "death": null,
+      "burial": null,
+      "causeOfDeath": null,
+      "ageAtDeath": null,
+      "story": null,
+      "photo": null,
+      "parents": "F49",
+      "spouseFamilies": []
+    }
+  ],
+  "families": [
+    {
+      "id": "F1",
+      "husband": "I1",
+      "wife": "I34",
+      "marriage": null,
+      "children": [
+        "I35",
+        "I44"
+      ]
+    },
+    {
+      "id": "F2",
+      "husband": "I1",
+      "wife": "I27",
+      "marriage": null,
+      "children": [
+        "I37"
+      ]
+    },
+    {
+      "id": "F3",
+      "husband": "I1",
+      "wife": "I15",
+      "marriage": null,
+      "children": [
+        "I11",
+        "I29",
+        "I30",
+        "I31",
+        "I32"
+      ]
+    },
+    {
+      "id": "F4",
+      "husband": "I60",
+      "wife": "I61",
+      "marriage": null,
+      "children": [
+        "I36"
+      ]
+    },
+    {
+      "id": "F5",
+      "husband": "I1",
+      "wife": "I3",
+      "marriage": null,
+      "children": [
+        "I4",
+        "I5"
+      ]
+    },
+    {
+      "id": "F6",
+      "husband": null,
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I3"
+      ]
+    },
+    {
+      "id": "F7",
+      "husband": "I18",
+      "wife": null,
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F8",
+      "husband": "I2",
+      "wife": "I66",
+      "marriage": null,
+      "children": [
+        "I1",
+        "I7",
+        "I70",
+        "I71",
+        "I72"
+      ]
+    },
+    {
+      "id": "F9",
+      "husband": "I16",
+      "wife": "I17",
+      "marriage": null,
+      "children": [
+        "I2",
+        "I64",
+        "I131"
+      ]
+    },
+    {
+      "id": "F10",
+      "husband": "I4",
+      "wife": "I13",
+      "marriage": null,
+      "children": [
+        "I14"
+      ]
+    },
+    {
+      "id": "F11",
+      "husband": "I18",
+      "wife": "I21",
+      "marriage": null,
+      "children": [
+        "I6",
+        "I100",
+        "I101",
+        "I102",
+        "I104"
+      ]
+    },
+    {
+      "id": "F12",
+      "husband": "I73",
+      "wife": "I7",
+      "marriage": null,
+      "children": [
+        "I74",
+        "I75",
+        "I76"
+      ]
+    },
+    {
+      "id": "F13",
+      "husband": null,
+      "wife": "I9",
+      "marriage": null,
+      "children": [
+        "I63",
+        "I66",
+        "I67",
+        "I68"
+      ]
+    },
+    {
+      "id": "F14",
+      "husband": "I65",
+      "wife": "I9",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F15",
+      "husband": "I10",
+      "wife": "I37",
+      "marriage": null,
+      "children": [
+        "I12",
+        "I20",
+        "I28",
+        "I115"
+      ]
+    },
+    {
+      "id": "F16",
+      "husband": "I23",
+      "wife": "I11",
+      "marriage": null,
+      "children": [
+        "I43"
+      ]
+    },
+    {
+      "id": "F17",
+      "husband": "I48",
+      "wife": "I49",
+      "marriage": null,
+      "children": [
+        "I15"
+      ]
+    },
+    {
+      "id": "F18",
+      "husband": "I16",
+      "wife": "I66",
+      "marriage": null,
+      "children": [
+        "I18"
+      ]
+    },
+    {
+      "id": "F19",
+      "husband": "I16",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I143",
+        "I144"
+      ]
+    },
+    {
+      "id": "F20",
+      "husband": "I62",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I16"
+      ]
+    },
+    {
+      "id": "F21",
+      "husband": "I18",
+      "wife": "I105",
+      "marriage": null,
+      "children": [
+        "I106",
+        "I107",
+        "I108",
+        "I114"
+      ]
+    },
+    {
+      "id": "F22",
+      "husband": "I18",
+      "wife": "I99",
+      "marriage": null,
+      "children": [
+        "I116",
+        "I117",
+        "I118",
+        "I119"
+      ]
+    },
+    {
+      "id": "F23",
+      "husband": "I18",
+      "wife": "I120",
+      "marriage": null,
+      "children": [
+        "I121",
+        "I122",
+        "I123"
+      ]
+    },
+    {
+      "id": "F24",
+      "husband": "I18",
+      "wife": "I124",
+      "marriage": null,
+      "children": [
+        "I125",
+        "I126",
+        "I127",
+        "I128"
+      ]
+    },
+    {
+      "id": "F25",
+      "husband": null,
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I18"
+      ]
+    },
+    {
+      "id": "F26",
+      "husband": "I2",
+      "wife": "I69",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F27",
+      "husband": null,
+      "wife": "I29",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F28",
+      "husband": "I24",
+      "wife": "I29",
+      "marriage": null,
+      "children": [
+        "I25",
+        "I26"
+      ]
+    },
+    {
+      "id": "F29",
+      "husband": null,
+      "wife": "I25",
+      "marriage": null,
+      "children": [
+        "I33"
+      ]
+    },
+    {
+      "id": "F30",
+      "husband": "I36",
+      "wife": "I29",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F31",
+      "husband": null,
+      "wife": "I29",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F32",
+      "husband": "I50",
+      "wife": "I30",
+      "marriage": null,
+      "children": [
+        "I51",
+        "I52"
+      ]
+    },
+    {
+      "id": "F33",
+      "husband": null,
+      "wife": "I31",
+      "marriage": null,
+      "children": [
+        "I53",
+        "I54",
+        "I55"
+      ]
+    },
+    {
+      "id": "F34",
+      "husband": null,
+      "wife": "I32",
+      "marriage": null,
+      "children": [
+        "I56",
+        "I57"
+      ]
+    },
+    {
+      "id": "F35",
+      "husband": "I44",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I45",
+        "I46",
+        "I47"
+      ]
+    },
+    {
+      "id": "F36",
+      "husband": null,
+      "wife": "I22",
+      "marriage": null,
+      "children": [
+        "I58",
+        "I59"
+      ]
+    },
+    {
+      "id": "F37",
+      "husband": null,
+      "wife": "I45",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F38",
+      "husband": "I63",
+      "wife": "I112",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F39",
+      "husband": "I63",
+      "wife": "I111",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F40",
+      "husband": "I63",
+      "wife": "I129",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F41",
+      "husband": "I63",
+      "wife": "I130",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F42",
+      "husband": "I70",
+      "wife": "I92",
+      "marriage": null,
+      "children": [
+        "I95",
+        "I96",
+        "I97",
+        "I98"
+      ]
+    },
+    {
+      "id": "F43",
+      "husband": "I71",
+      "wife": "I85",
+      "marriage": null,
+      "children": [
+        "I77",
+        "I78",
+        "I79",
+        "I80",
+        "I81",
+        "I82",
+        "I83",
+        "I84",
+        "I139"
+      ]
+    },
+    {
+      "id": "F44",
+      "husband": "I71",
+      "wife": "I86",
+      "marriage": null,
+      "children": [
+        "I87",
+        "I88",
+        "I89",
+        "I90",
+        "I91",
+        "I93",
+        "I94"
+      ]
+    },
+    {
+      "id": "F45",
+      "husband": "I110",
+      "wife": "I72",
+      "marriage": null,
+      "children": [
+        "I103",
+        "I109"
+      ]
+    },
+    {
+      "id": "F46",
+      "husband": null,
+      "wife": "I145",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F47",
+      "husband": "I1",
+      "wife": "I157",
+      "marriage": null,
+      "children": [
+        "I42"
+      ]
+    },
+    {
+      "id": "F48",
+      "husband": null,
+      "wife": "I42",
+      "marriage": null,
+      "children": [
+        "I158",
+        "I159",
+        "I160",
+        "I161"
+      ]
+    },
+    {
+      "id": "F49",
+      "husband": "I141",
+      "wife": "I5",
+      "marriage": null,
+      "children": [
+        "I163"
+      ]
+    },
+    {
+      "id": "F50",
+      "husband": "I2",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I132"
+      ]
+    },
+    {
+      "id": "F51",
+      "husband": "I2",
+      "wife": "I152",
+      "marriage": null,
+      "children": [
+        "I136",
+        "I137"
+      ]
+    },
+    {
+      "id": "F52",
+      "husband": null,
+      "wife": "I147",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F53",
+      "husband": null,
+      "wife": "I148",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F54",
+      "husband": null,
+      "wife": "I19",
+      "marriage": null,
+      "children": [
+        "I69"
+      ]
+    },
+    {
+      "id": "F55",
+      "husband": "I2",
+      "wife": "I138",
+      "marriage": null,
+      "children": [
+        "I133"
+      ]
+    },
+    {
+      "id": "F56",
+      "husband": "I2",
+      "wife": "I41",
+      "marriage": null,
+      "children": [
+        "I134"
+      ]
+    },
+    {
+      "id": "F57",
+      "husband": "I2",
+      "wife": "I40",
+      "marriage": null,
+      "children": [
+        "I135"
+      ]
+    },
+    {
+      "id": "F58",
+      "husband": "I71",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I139"
+      ]
+    },
+    {
+      "id": "F59",
+      "husband": "I2",
+      "wife": "I38",
+      "marriage": null,
+      "children": [
+        "I154"
+      ]
+    },
+    {
+      "id": "F60",
+      "husband": "I18",
+      "wife": "I140",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F61",
+      "husband": "I63",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I155"
+      ]
+    },
+    {
+      "id": "F62",
+      "husband": "I143",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I156"
+      ]
+    },
+    {
+      "id": "F63",
+      "husband": "I146",
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I147",
+        "I148"
+      ]
+    },
+    {
+      "id": "F64",
+      "husband": null,
+      "wife": "I149",
+      "marriage": null,
+      "children": []
+    },
+    {
+      "id": "F65",
+      "husband": null,
+      "wife": null,
+      "marriage": null,
+      "children": [
+        "I141"
+      ]
+    },
+    {
+      "id": "F66",
+      "husband": null,
+      "wife": "I29",
+      "marriage": null,
+      "children": []
+    }
+  ]
+}

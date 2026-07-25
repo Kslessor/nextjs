@@ -3,25 +3,52 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --ground: #0d1522;
+  --card: #152239;
+  --line: #2b3e5e;
+  --ink: #e6ecf5;
+  --muted: #8fa2c0;
+  --brass: #d9a441;
+  --married-in: #0f1a2b;
+  --child-link: #3d5a7d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html,
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: 'Public Sans', system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+.surname-caps {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.tree-box {
+  transition: border-color 150ms ease, background-color 150ms ease;
 }
