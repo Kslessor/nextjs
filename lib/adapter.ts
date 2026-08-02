@@ -67,6 +67,23 @@ class StaticAdapter implements DataAdapter {
   }
 }
 
+// Reads a response body and explains exactly what came back when it isn't
+// the JSON we expect — much kinder than "Unexpected end of JSON input".
+async function parseBackendJson(res: Response): Promise<Record<string, unknown>> {
+  const text = await res.text();
+  if (!text.trim()) {
+    throw new Error(
+      `The backend sent an empty reply (status ${res.status}). Please try again — if it keeps happening, tell Kelly.`
+    );
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    const peek = text.replace(/\s+/g, ' ').slice(0, 140);
+    throw new Error(`The backend sent an unexpected reply (status ${res.status}): ${peek}`);
+  }
+}
+
 class AppsScriptAdapter implements DataAdapter {
   readonly mode = 'apps-script' as const;
   constructor(private url: string) {}
@@ -95,16 +112,16 @@ class AppsScriptAdapter implements DataAdapter {
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({ action: 'suggest', suggestion: sug }),
     });
-    const out = await res.json();
-    if (!out.ok) throw new Error(out.error || 'Submission failed');
+    const out = await parseBackendJson(res);
+    if (!out.ok) throw new Error(String(out.error || 'Submission failed'));
     return { delivery: 'queued' };
   }
 
   async listPending(secret: string): Promise<Suggestion[]> {
     const res = await fetch(`${this.url}?action=pending&key=${encodeURIComponent(secret)}`);
-    const out = await res.json();
-    if (!out.ok) throw new Error(out.error || 'Could not load queue (bad secret?)');
-    return out.suggestions;
+    const out = await parseBackendJson(res);
+    if (!out.ok) throw new Error(String(out.error || 'Could not load queue (bad secret?)'));
+    return out.suggestions as Suggestion[];
   }
 
   async decide(secret: string, req: DecideRequest): Promise<FamilyData> {
@@ -113,9 +130,9 @@ class AppsScriptAdapter implements DataAdapter {
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({ action: 'decide', key: secret, ...req }),
     });
-    const out = await res.json();
-    if (!out.ok) throw new Error(out.error || 'Decision failed');
-    return out.data;
+    const out = await parseBackendJson(res);
+    if (!out.ok) throw new Error(String(out.error || 'Decision failed'));
+    return out.data as FamilyData;
   }
 }
 
