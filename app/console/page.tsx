@@ -219,7 +219,7 @@ export default function Console() {
             className="w-full bg-marriedin border border-line rounded-md px-3 py-2 text-sm mb-3"
           />
           {error && (
-            <p role="alert" className="text-sm text-red-400 mb-3">
+            <p role="alert" className="text-sm text-red-600 mb-3">
               {error}
             </p>
           )}
@@ -301,7 +301,7 @@ export default function Console() {
       )}
 
       {error && (
-        <p role="alert" className="text-sm text-red-400 mb-3">
+        <p role="alert" className="text-sm text-red-600 mb-3">
           {error}
         </p>
       )}
@@ -407,7 +407,7 @@ export default function Console() {
                     <>
                       <button
                         type="button"
-                        className={`${btn} border-red-400 text-red-400`}
+                        className={`${btn} border-red-600 text-red-600`}
                         onClick={() => {
                           setRejecting(null);
                           decide(sug, 'reject', undefined, reason || undefined);
@@ -448,7 +448,7 @@ export default function Console() {
                       )}
                       <button
                         type="button"
-                        className={`${btn} border-line text-muted hover:border-red-400 hover:text-red-400`}
+                        className={`${btn} border-line text-muted hover:border-red-600 hover:text-red-600`}
                         onClick={() => setRejecting(sug.suggestionId)}
                       >
                         Reject
@@ -475,7 +475,7 @@ export default function Console() {
                 <span className="font-mono text-[11px] text-muted">
                   {item.at.slice(0, 16).replace('T', ' ')}
                 </span>
-                <span className={item.action === 'approve' ? 'text-brass' : 'text-red-400'}>
+                <span className={item.action === 'approve' ? 'text-brass' : 'text-red-600'}>
                   {item.action}
                 </span>
                 <span className="text-muted truncate">{item.summary}</span>

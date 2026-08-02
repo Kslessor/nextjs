@@ -86,7 +86,7 @@ export default function DiffView({ data, sug }: { data: FamilyData; sug: Suggest
 
   if (!target) {
     return (
-      <p className="text-red-400 text-sm">
+      <p className="text-red-600 text-sm">
         Target {sug.targetId} does not exist in the current data — this suggestion
         cannot be applied.
       </p>

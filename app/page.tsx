@@ -46,7 +46,7 @@ export default function Viewer() {
       )}
 
       {error && (
-        <p role="alert" className="p-6 text-red-400">
+        <p role="alert" className="p-6 text-red-600">
           {error}
         </p>
       )}

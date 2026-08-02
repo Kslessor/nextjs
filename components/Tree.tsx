@@ -242,8 +242,8 @@ function PersonBox({
     : marriedIn
     ? 'bg-marriedin border-dashed border-line'
     : p.sex === 'F'
-    ? 'bg-[#1a2238] border-line'
-    : 'bg-[#13233b] border-line';
+    ? 'bg-[#f9f2ea] border-line'
+    : 'bg-[#eef2f7] border-line';
   return (
     <button
       type="button"
@@ -301,7 +301,7 @@ export default function Tree({
               <polyline
                 points={line.points.map(([x, y]) => `${x},${y}`).join(' ')}
                 fill="none"
-                stroke={line.kind === 'marriage' ? '#d9a441' : '#3d5a7d'}
+                stroke={line.kind === 'marriage' ? '#b8912f' : '#9db1c9'}
                 strokeWidth={line.kind === 'marriage' ? 1.5 : 1}
               />
               {line.knot && (
@@ -310,8 +310,8 @@ export default function Tree({
                   y={line.knot[1] - 4}
                   width={8}
                   height={8}
-                  fill="#0d1522"
-                  stroke="#d9a441"
+                  fill="#ffffff"
+                  stroke="#b8912f"
                   strokeWidth={1.5}
                   transform={`rotate(45 ${line.knot[0]} ${line.knot[1]})`}
                 />

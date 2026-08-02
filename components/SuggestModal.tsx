@@ -477,7 +477,7 @@ export default function SuggestModal({
             </div>
 
             {error && (
-              <p role="alert" className="text-sm text-red-400 mt-3">
+              <p role="alert" className="text-sm text-red-600 mt-3">
                 {error}
               </p>
             )}

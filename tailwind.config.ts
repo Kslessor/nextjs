@@ -8,14 +8,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ground: '#0d1522',
-        card: '#152239',
-        line: '#2b3e5e',
-        ink: '#e6ecf5',
-        muted: '#8fa2c0',
-        brass: '#d9a441',
-        marriedin: '#0f1a2b',
-        childlink: '#3d5a7d',
+        ground: '#ffffff',
+        card: '#faf9f6',
+        line: '#dcdfe6',
+        ink: '#1c2635',
+        muted: '#6b7a92',
+        brass: '#a97b1e',
+        marriedin: '#f4f2ed',
+        childlink: '#9db1c9',
       },
     },
   },
