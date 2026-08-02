@@ -4,7 +4,7 @@
 // Boxes are HTML buttons (keyboard-focusable); connectors are an SVG layer
 // underneath. Clicking any box re-centres the tree on that person.
 
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import {
   bloodRelativeIds,
   displayName,
@@ -281,11 +281,23 @@ export default function Tree({
     [data, focus]
   );
   const blood = useMemo(() => bloodRelativeIds(data, focusId), [data, focusId]);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  // Keep the focused person in view — matters most on phones, where the
+  // tree is wider than the screen.
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !layout) return;
+    const focusBox = layout.boxes.find((b) => b.person.id === focusId);
+    if (!focusBox) return;
+    const stageLeft = Math.max(0, (el.clientWidth - layout.width) / 2);
+    el.scrollLeft = stageLeft + focusBox.x + BOX_W / 2 - el.clientWidth / 2;
+  }, [layout, focusId]);
 
   if (!focus || !layout) return <p className="text-muted p-6">Person not found.</p>;
 
   return (
-    <div className="overflow-auto" role="group" aria-label="Family tree">
+    <div ref={scrollRef} className="overflow-auto" role="group" aria-label="Family tree">
       <div
         className="relative mx-auto"
         style={{ width: layout.width, height: layout.height }}

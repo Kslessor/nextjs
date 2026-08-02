@@ -202,7 +202,7 @@ function PersonFields({
           />
         </Field>
       </div>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
         <Field label="Sex">
           <select
             className={inputCls}
@@ -505,7 +505,7 @@ export default function SuggestModal({
 
             <hr className="border-line my-4" />
 
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
               <Field label="Your name *">
                 <input
                   className={inputCls}

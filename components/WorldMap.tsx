@@ -4,7 +4,7 @@
 // The land outline is embedded (no map service needed). Pins scale with the
 // number of people; clicking one opens the list of family members there.
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import land from './world-land.json';
 import { computePins, type Pin } from '@/lib/places';
 import type { FamilyData } from '@/lib/types';
@@ -34,13 +34,24 @@ export default function WorldMap({
   const [hover, setHover] = useState<string | null>(null);
 
   const maxCount = Math.max(...pins.map((p) => p.people.length), 1);
+  const frameRef = useRef<HTMLDivElement>(null);
+
+  // On phones the frame scrolls sideways — start it centred on the pins
+  // (between Nigeria and the UK), not on the empty Atlantic.
+  useEffect(() => {
+    const el = frameRef.current;
+    if (!el || el.scrollWidth <= el.clientWidth) return;
+    const homeX = ((px(2) - VIEW.x) / VIEW.w) * el.scrollWidth;
+    el.scrollLeft = homeX - el.clientWidth / 2;
+  }, []);
 
   return (
     <div>
-      <div className="relative border border-line rounded-xl bg-card overflow-hidden">
+      <div ref={frameRef} className="relative border border-line rounded-xl bg-card overflow-x-auto">
+        {/* min-width keeps pins tappable on phones; the frame scrolls sideways */}
         <svg
           viewBox={`${VIEW.x} ${VIEW.y} ${VIEW.w} ${VIEW.h}`}
-          className="w-full h-auto block"
+          className="w-full h-auto block min-w-[680px]"
           role="img"
           aria-label="World map of family places"
         >
