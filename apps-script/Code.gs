@@ -7,21 +7,16 @@
  * suggestions, nothing else.
  *
  * SETUP (one time)
- * 1. Create a Google Sheet with two tabs named exactly:  suggestions, audit
- *    suggestions header row:
- *      suggestionId | type | targetId | submitterName | submitterEmail |
- *      relationship | payloadJSON | message | createdAt | status | decidedAt | reason
- *    audit header row:
- *      at | action | suggestionId | summary | by | snapshotJSON
- * 2. Upload family-data.json to Drive.
- * 3. Extensions → Apps Script (from the Sheet), paste this file.
- * 4. Project Settings → Script Properties, add:
- *      SECRET        = a long random string (this gates the console)
- *      DATA_FILE_ID  = the Drive file id of family-data.json
- *      NOTIFY_EMAIL  = kelly@kellyslessor.com   (summary email on new suggestions)
- * 5. Deploy → New deployment → Web app:
+ * 1. Open the "Family Tree Queue" Google Sheet → Extensions → Apps Script,
+ *    delete any starter code and paste this whole file. Save.
+ * 2. In the toolbar pick the function `setup` and press Run (approve the
+ *    permissions it asks for). The execution log shows your console SECRET —
+ *    it also creates the sheet tabs and copies family-data.json from the live
+ *    site into Drive automatically.
+ * 3. Deploy → New deployment → Web app:
  *      Execute as: Me    ·    Who has access: Anyone
  *    Copy the /exec URL into lib/config.ts (APPS_SCRIPT_URL) and redeploy the site.
+ * To change the SECRET later: Project Settings → Script Properties.
  *
  * Endpoints
  *   GET  ?action=data                     → canonical JSON (public)
@@ -57,10 +52,56 @@ function saveData_(data) {
   file.setContent(JSON.stringify(data, null, 2));
 }
 
+var SHEET_HEADERS = {
+  suggestions: ['suggestionId', 'type', 'targetId', 'submitterName', 'submitterEmail',
+    'relationship', 'payloadJSON', 'message', 'createdAt', 'status', 'decidedAt', 'reason'],
+  audit: ['at', 'action', 'suggestionId', 'summary', 'by', 'snapshotJSON'],
+};
+
 function sheet_(name) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(name);
-  if (!sheet) throw new Error('Missing sheet tab: ' + name);
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(name);
+  if (!sheet) {
+    sheet = ss.insertSheet(name);
+    sheet.appendRow(SHEET_HEADERS[name]);
+  }
   return sheet;
+}
+
+/**
+ * ONE-TIME SETUP — run this once from the Apps Script editor (Run > setup).
+ * It creates the sheet tabs, downloads family-data.json from the live site
+ * into Drive, and generates the console SECRET. Check the execution log for
+ * the secret when it finishes.
+ */
+function setup() {
+  sheet_('suggestions');
+  sheet_('audit');
+
+  if (!PROPS.getProperty('DATA_FILE_ID')) {
+    var url = PROPS.getProperty('SITE_DATA_URL') ||
+      'https://kslessor.github.io/nextjs/family-data.json';
+    var json = UrlFetchApp.fetch(url).getContentText();
+    JSON.parse(json); // sanity check before saving
+    var file = DriveApp.createFile('family-data.json', json, 'application/json');
+    PROPS.setProperty('DATA_FILE_ID', file.getId());
+  }
+
+  if (!PROPS.getProperty('SECRET')) {
+    var chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
+    var secret = '';
+    for (var i = 0; i < 32; i++) secret += chars.charAt(Math.floor(Math.random() * chars.length));
+    PROPS.setProperty('SECRET', secret);
+  }
+
+  if (!PROPS.getProperty('NOTIFY_EMAIL')) {
+    PROPS.setProperty('NOTIFY_EMAIL', Session.getEffectiveUser().getEmail());
+  }
+
+  Logger.log('Setup complete.');
+  Logger.log('Console SECRET (keep private): ' + PROPS.getProperty('SECRET'));
+  Logger.log('Data file: https://drive.google.com/file/d/' + PROPS.getProperty('DATA_FILE_ID'));
+  Logger.log('Suggestion emails go to: ' + PROPS.getProperty('NOTIFY_EMAIL'));
 }
 
 function checkSecret_(key) {
