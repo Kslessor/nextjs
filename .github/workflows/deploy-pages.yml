@@ -1,10 +1,11 @@
 name: Deploy to GitHub Pages
 
+# Pages only accepts deployments from main (environment protection), so
+# only main triggers a deploy.
 on:
   push:
     branches:
       - main
-      - claude/ajai-rotimi-family-tree-112n0h
   workflow_dispatch:
 
 permissions:

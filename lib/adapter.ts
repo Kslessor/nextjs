@@ -72,9 +72,20 @@ class AppsScriptAdapter implements DataAdapter {
   constructor(private url: string) {}
 
   async loadData(): Promise<FamilyData> {
-    const res = await fetch(`${this.url}?action=data`);
-    if (!res.ok) throw new Error(`Backend error ${res.status}`);
-    return normalizeData(await res.json());
+    // Prefer the live backend (reflects approvals immediately); if it is
+    // down or misconfigured, fall back to the data file shipped with the
+    // site so the tree always loads.
+    try {
+      const res = await fetch(`${this.url}?action=data`);
+      if (!res.ok) throw new Error(`Backend error ${res.status}`);
+      return normalizeData(await res.json());
+    } catch {
+      for (const path of ['family-data.json', '../family-data.json']) {
+        const res = await fetch(path, { cache: 'no-store' });
+        if (res.ok) return normalizeData(await res.json());
+      }
+      throw new Error('Could not load family data');
+    }
   }
 
   async submitSuggestion(sug: Suggestion): Promise<{ delivery: 'download' | 'queued' }> {
