@@ -31,16 +31,14 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <header className="border-b border-line px-4 py-3 flex flex-wrap items-center gap-3">
-        <span className="font-display text-xl mr-auto">
-          Ajai <span className="text-brass">·</span> Rotimi
-        </span>
+      <header className="bg-brass text-white px-4 py-3 flex flex-wrap items-center gap-3">
+        <span className="font-display text-xl mr-auto">The Ajai · Rotimi Family</span>
         <nav className="flex items-center gap-4 text-sm">
-          <a href="tree/" className="text-muted hover:text-brass">
+          <a href="tree/" className="text-white/80 hover:text-white">
             Family tree
           </a>
         </nav>
-        {data && <Search data={data} onSelect={goToPerson} />}
+        {data && <Search data={data} onSelect={goToPerson} dark />}
       </header>
 
       <section className="max-w-5xl mx-auto px-4 pt-10 pb-6 text-center">

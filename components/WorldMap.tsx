@@ -73,7 +73,7 @@ export default function WorldMap({
                 <circle r={r + 6} fill="transparent" />
                 <circle
                   r={r}
-                  fill={isActive ? '#a97b1e' : 'rgba(169, 123, 30, 0.75)'}
+                  fill={isActive ? '#1e5b41' : 'rgba(30, 91, 65, 0.75)'}
                   stroke="#ffffff"
                   strokeWidth="1.5"
                   className="pin-dot"

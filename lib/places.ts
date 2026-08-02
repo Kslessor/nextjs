@@ -75,6 +75,17 @@ function matchPlace(place: string | null | undefined): PlaceDef | undefined {
   return GAZETTEER.find((g) => g.patterns.some((re) => re.test(place)));
 }
 
+// Which gazetteer places does this person's record touch? (for filtering)
+export function personPlaceKeys(person: Person): string[] {
+  const keys = new Set<string>();
+  for (const [field] of EVENT_LABELS) {
+    const ev = person[field] as { place: string | null } | null;
+    const def = matchPlace(ev?.place);
+    if (def) keys.add(def.key);
+  }
+  return Array.from(keys);
+}
+
 export function computePins(data: FamilyData): Pin[] {
   const byKey = new Map<string, Pin>();
   for (const person of data.people) {

@@ -7,9 +7,11 @@ import type { FamilyData } from '@/lib/types';
 export default function Search({
   data,
   onSelect,
+  dark = false,
 }: {
   data: FamilyData;
   onSelect: (id: string) => void;
+  dark?: boolean; // styled for the green header
 }) {
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
@@ -60,7 +62,11 @@ export default function Search({
         role="combobox"
         aria-expanded={open && results.length > 0}
         aria-controls="search-results"
-        className="w-full bg-marriedin border border-line rounded-md px-3 py-2 text-sm placeholder:text-muted"
+        className={
+          dark
+            ? 'w-full bg-[#174934] border border-[#2e7d5b] text-white rounded-full px-4 py-2 text-sm placeholder:text-white/60'
+            : 'w-full bg-marriedin border border-line rounded-md px-3 py-2 text-sm placeholder:text-muted'
+        }
       />
       {open && results.length > 0 && (
         <ul

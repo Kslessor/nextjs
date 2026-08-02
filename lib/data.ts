@@ -141,6 +141,65 @@ export function searchPeople(data: FamilyData, q: string, limit = 12): Person[] 
   return scored.slice(0, limit).map((x) => x.p);
 }
 
+// Generation number per person, counted from the apex ancestor (G1).
+// Spouses share a generation; children are one below; parents one above.
+export function computeGenerations(data: FamilyData): Map<string, number> {
+  const gen = new Map<string, number>();
+  const root = data.meta.rootPersonId;
+  if (!personById(data, root)) return gen;
+  gen.set(root, 0);
+  const queue = [root];
+  while (queue.length) {
+    const id = queue.shift()!;
+    const g = gen.get(id)!;
+    const p = personById(data, id);
+    if (!p) continue;
+    const visit = (other: string | null | undefined, og: number) => {
+      if (other && !gen.has(other)) {
+        gen.set(other, og);
+        queue.push(other);
+      }
+    };
+    const pf = familyById(data, p.parents);
+    if (pf) {
+      visit(pf.husband, g - 1);
+      visit(pf.wife, g - 1);
+      for (const sib of pf.children) visit(sib, g);
+    }
+    for (const fid of p.spouseFamilies) {
+      const f = familyById(data, fid);
+      if (!f) continue;
+      visit(f.husband, g);
+      visit(f.wife, g);
+      for (const c of f.children) visit(c, g + 1);
+    }
+  }
+  let min = 0;
+  gen.forEach((g) => { if (g < min) min = g; });
+  gen.forEach((g, id) => gen.set(id, g - min + 1));
+  return gen;
+}
+
+// Pastel hue + readable dark tone per generation, cycled.
+export const GEN_HUES: { bg: string; fg: string }[] = [
+  { bg: '#f6dede', fg: '#8c3b3b' },
+  { bg: '#faeccd', fg: '#8a6420' },
+  { bg: '#ddefd8', fg: '#3d6b33' },
+  { bg: '#d5ece4', fg: '#1e5b41' },
+  { bg: '#dbe6f6', fg: '#33538a' },
+  { bg: '#f3dcee', fg: '#84387a' },
+];
+
+export function genHue(g: number | undefined) {
+  return GEN_HUES[((g ?? 1) - 1) % GEN_HUES.length];
+}
+
+export function initials(p: Person): string {
+  const a = (p.given || '').trim().charAt(0);
+  const b = (p.surname || '').trim().charAt(0);
+  return ((a + b) || '?').toUpperCase();
+}
+
 export function nextId(prefix: 'I' | 'F', data: FamilyData): string {
   let max = 0;
   const list = prefix === 'I' ? data.people.map((p) => p.id) : data.families.map((f) => f.id);

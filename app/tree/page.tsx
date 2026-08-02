@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import Filters from '@/components/Filters';
 import Profile from '@/components/Profile';
 import Search from '@/components/Search';
 import SuggestModal, { type SuggestMode } from '@/components/SuggestModal';
@@ -29,22 +30,27 @@ export default function TreePage() {
   }, [adapter]);
 
   const focus = data && focusId ? personById(data, focusId) : undefined;
+  const [showFilters, setShowFilters] = useState(false);
 
   return (
     <main className="min-h-screen">
-      <header className="border-b border-line px-4 py-3 flex flex-wrap items-center gap-3">
-        <h1 className="font-display text-xl sm:text-2xl mr-auto">
-          <a href="../" className="hover:text-brass">
-            Ajai <span className="text-brass">·</span> Rotimi
-          </a>{' '}
-          <span className="text-muted font-sans text-sm">family tree</span>
+      <header className="bg-brass text-white px-4 py-3 flex flex-wrap items-center gap-3">
+        <h1 className="mr-auto">
+          <a href="../" className="hover:opacity-90">
+            <span className="font-display text-xl sm:text-2xl block leading-tight">
+              The Ajai · Rotimi Family
+            </span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-white/70">
+              {data ? `${data.people.length} people · ${data.families.length} families` : 'family tree'}
+            </span>
+          </a>
         </h1>
         <nav className="flex items-center gap-4 text-sm">
-          <a href="../" className="text-muted hover:text-brass">
+          <a href="../" className="text-white/80 hover:text-white">
             Places map
           </a>
         </nav>
-        {data && <Search data={data} onSelect={setFocusId} />}
+        {data && <Search data={data} onSelect={setFocusId} dark />}
       </header>
 
       {error && (
@@ -55,7 +61,20 @@ export default function TreePage() {
       {!data && !error && <p className="p-6 text-muted">Loading the family…</p>}
 
       {data && focus && (
-        <div className="grid lg:grid-cols-[1fr_360px] gap-4 p-4">
+        <div className="grid lg:grid-cols-[236px_minmax(0,1fr)_360px] gap-4 p-4 items-start">
+          <aside aria-label="Explore">
+            <button
+              type="button"
+              onClick={() => setShowFilters((v) => !v)}
+              className="lg:hidden w-full border border-line rounded-md px-3 py-2 text-sm text-left mb-2"
+              aria-expanded={showFilters}
+            >
+              {showFilters ? '▾' : '▸'} Explore &amp; filter
+            </button>
+            <div className={`${showFilters ? 'block' : 'hidden'} lg:block bg-card border border-line rounded-xl p-4`}>
+              <Filters data={data} onSelect={(id) => setFocusId(id)} />
+            </div>
+          </aside>
           <section aria-label="Tree" className="min-w-0">
             <Tree data={data} focusId={focus.id} onFocus={setFocusId} />
           </section>

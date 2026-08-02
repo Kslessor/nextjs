@@ -13,7 +13,7 @@ const config: Config = {
         line: '#dcdfe6',
         ink: '#1c2635',
         muted: '#6b7a92',
-        brass: '#a97b1e',
+        brass: '#1e5b41',
         marriedin: '#f4f2ed',
         childlink: '#9db1c9',
       },
