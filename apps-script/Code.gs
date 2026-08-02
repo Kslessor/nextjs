@@ -35,7 +35,11 @@ function json_(obj) {
 }
 
 function loadData_() {
-  var file = DriveApp.getFileById(PROPS.getProperty('DATA_FILE_ID'));
+  var dataFileId = PROPS.getProperty('DATA_FILE_ID');
+  if (!dataFileId) {
+    throw new Error('Backend not initialised — open the Apps Script editor and Run the setup function once.');
+  }
+  var file = DriveApp.getFileById(dataFileId);
   var raw = JSON.parse(file.getBlob().getDataAsString());
   // accept people/families as arrays or as id-keyed objects
   if (!Array.isArray(raw.people)) {
@@ -78,15 +82,7 @@ function setup() {
   sheet_('suggestions');
   sheet_('audit');
 
-  if (!PROPS.getProperty('DATA_FILE_ID')) {
-    var url = PROPS.getProperty('SITE_DATA_URL') ||
-      'https://kslessor.github.io/nextjs/family-data.json';
-    var json = UrlFetchApp.fetch(url).getContentText();
-    JSON.parse(json); // sanity check before saving
-    var file = DriveApp.createFile('family-data.json', json, 'application/json');
-    PROPS.setProperty('DATA_FILE_ID', file.getId());
-  }
-
+  // secret + email first, so a failed data download can't leave them unset
   if (!PROPS.getProperty('SECRET')) {
     var chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789';
     var secret = '';
@@ -96,6 +92,15 @@ function setup() {
 
   if (!PROPS.getProperty('NOTIFY_EMAIL')) {
     PROPS.setProperty('NOTIFY_EMAIL', Session.getEffectiveUser().getEmail());
+  }
+
+  if (!PROPS.getProperty('DATA_FILE_ID')) {
+    var url = PROPS.getProperty('SITE_DATA_URL') ||
+      'https://kslessor.github.io/nextjs/family-data.json';
+    var json = UrlFetchApp.fetch(url).getContentText();
+    JSON.parse(json); // sanity check before saving
+    var file = DriveApp.createFile('family-data.json', json, 'application/json');
+    PROPS.setProperty('DATA_FILE_ID', file.getId());
   }
 
   Logger.log('Setup complete.');
