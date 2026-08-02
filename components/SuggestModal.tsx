@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { displayName, spousesOf } from '@/lib/data';
-import { normalizeDate, sanitizeMultiline, sanitizeText } from '@/lib/sanitize';
+import { normalizeDate, sanitizeMultiline, sanitizePhoto, sanitizeText } from '@/lib/sanitize';
 import type {
   EventInfo,
   FamilyData,
@@ -38,6 +38,29 @@ interface PersonDraft {
   causeOfDeath: string;
   ageAtDeath: string;
   story: string;
+  photo: string; // data URI (from the resize step) or https URL, '' = none
+}
+
+// Downscale a chosen image in the browser so suggestions stay small.
+async function fileToDataUri(file: File): Promise<string> {
+  if (file.size > 15 * 1024 * 1024) throw new Error('Please choose a photo under 15 MB.');
+  const url = URL.createObjectURL(file);
+  try {
+    const img = new Image();
+    await new Promise<void>((resolve, reject) => {
+      img.onload = () => resolve();
+      img.onerror = () => reject(new Error('That file does not look like an image.'));
+      img.src = url;
+    });
+    const scale = Math.min(1, 640 / Math.max(img.width, img.height));
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.max(1, Math.round(img.width * scale));
+    canvas.height = Math.max(1, Math.round(img.height * scale));
+    canvas.getContext('2d')!.drawImage(img, 0, 0, canvas.width, canvas.height);
+    return canvas.toDataURL('image/jpeg', 0.82);
+  } finally {
+    URL.revokeObjectURL(url);
+  }
 }
 
 function draftFromPerson(p?: Person): PersonDraft {
@@ -60,6 +83,7 @@ function draftFromPerson(p?: Person): PersonDraft {
     causeOfDeath: p?.causeOfDeath ?? '',
     ageAtDeath: p?.ageAtDeath != null ? String(p.ageAtDeath) : '',
     story: p?.story ?? '',
+    photo: p?.photo ?? '',
   };
 }
 
@@ -86,6 +110,7 @@ function draftToFields(d: PersonDraft): Partial<Person> {
     causeOfDeath: sanitizeText(d.causeOfDeath) || null,
     ageAtDeath: sanitizeText(d.ageAtDeath) || null,
     story: sanitizeMultiline(d.story) || null,
+    photo: sanitizePhoto(d.photo),
   };
 }
 
@@ -253,6 +278,47 @@ function PersonFields({
           placeholder="Anything you remember about them…"
         />
       </Field>
+      <div>
+        <span className="font-mono text-[11px] uppercase tracking-wider text-muted">
+          Photo
+        </span>
+        {draft.photo ? (
+          <div className="mt-1 flex items-center gap-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={draft.photo}
+              alt="Chosen photo"
+              className="h-20 w-20 object-cover rounded-md border border-line"
+            />
+            <button
+              type="button"
+              onClick={() => set({ photo: '' })}
+              className="text-xs text-muted hover:text-red-600 underline underline-offset-2"
+            >
+              Remove photo
+            </button>
+          </div>
+        ) : (
+          <label className="mt-1 flex items-center justify-center border border-dashed border-line rounded-md px-3 py-4 text-xs text-muted cursor-pointer hover:border-brass hover:text-brass">
+            Add a photo of them (JPG/PNG — it will be resized automatically)
+            <input
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={async (e) => {
+                const file = e.target.files?.[0];
+                if (!file) return;
+                try {
+                  set({ photo: await fileToDataUri(file) });
+                } catch (err) {
+                  alert(err instanceof Error ? err.message : 'Could not read that photo.');
+                }
+                e.target.value = '';
+              }}
+            />
+          </label>
+        )}
+      </div>
     </div>
   );
 }

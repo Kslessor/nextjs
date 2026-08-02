@@ -122,6 +122,23 @@ function rateLimit_() {
   cache.put('suggest-count', String(count + 1), 3600); // 30/hour overall
 }
 
+// Photos arrive as data URIs from the suggest form. A Sheets cell can't hold
+// one, so store the image as a Drive file (shared read-only) and replace the
+// payload value with its URL. Optional Script Property PHOTOS_FOLDER_ID picks
+// the folder; otherwise Drive root.
+function storePhoto_(container, sug) {
+  if (!container || typeof container.photo !== 'string') return;
+  var m = container.photo.match(/^data:image\/(png|jpe?g|webp|gif);base64,([A-Za-z0-9+\/=]+)$/);
+  if (!m) return;
+  var ext = m[1] === 'jpeg' ? 'jpg' : m[1];
+  var blob = Utilities.newBlob(Utilities.base64Decode(m[2]), 'image/' + m[1],
+    'family-photo-' + sug.suggestionId + '.' + ext);
+  var folderId = PROPS.getProperty('PHOTOS_FOLDER_ID');
+  var file = folderId ? DriveApp.getFolderById(folderId).createFile(blob) : DriveApp.createFile(blob);
+  file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+  container.photo = 'https://drive.google.com/uc?export=view&id=' + file.getId();
+}
+
 function handleSuggest_(sug) {
   if (!sug || !sug.suggestionId || !sug.type || !sug.targetId) {
     throw new Error('Malformed suggestion');
@@ -131,6 +148,11 @@ function handleSuggest_(sug) {
   var data = loadData_();
   var problem = validateSuggestion_(data, sug);
   if (problem) throw new Error(problem);
+
+  if (sug.payload) {
+    storePhoto_(sug.payload.fields, sug);
+    storePhoto_(sug.payload.person, sug);
+  }
 
   var lock = LockService.getScriptLock();
   lock.waitLock(10000);

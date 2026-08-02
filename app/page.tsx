@@ -1,83 +1,102 @@
 'use client';
 
+// Front page: the family's places across the world. The proverb is the
+// header; the map is the hero.
+
 import { useEffect, useMemo, useState } from 'react';
-import Profile from '@/components/Profile';
 import Search from '@/components/Search';
-import SuggestModal, { type SuggestMode } from '@/components/SuggestModal';
-import Tree from '@/components/Tree';
+import WorldMap from '@/components/WorldMap';
 import { getAdapter } from '@/lib/adapter';
-import { personById } from '@/lib/data';
+import { computePins } from '@/lib/places';
 import type { FamilyData } from '@/lib/types';
 
-export default function Viewer() {
+function goToPerson(id: string) {
+  window.location.href = `tree/?focus=${encodeURIComponent(id)}`;
+}
+
+export default function Home() {
   const adapter = useMemo(() => getAdapter(), []);
   const [data, setData] = useState<FamilyData | null>(null);
   const [error, setError] = useState('');
-  const [focusId, setFocusId] = useState<string | null>(null);
-  const [modal, setModal] = useState<SuggestMode | null>(null);
 
   useEffect(() => {
     adapter
       .loadData()
-      .then((d) => {
-        setData(d);
-        setFocusId(d.meta.rootPersonId);
-      })
+      .then(setData)
       .catch((e) => setError(e instanceof Error ? e.message : 'Could not load data'));
   }, [adapter]);
 
-  const focus = data && focusId ? personById(data, focusId) : undefined;
+  const pins = useMemo(() => (data ? computePins(data) : []), [data]);
+  const countries = new Set(pins.map((p) => p.country)).size;
 
   return (
     <main className="min-h-screen">
       <header className="border-b border-line px-4 py-3 flex flex-wrap items-center gap-3">
-        <h1 className="font-display text-xl sm:text-2xl mr-auto">
-          Ajai <span className="text-brass">·</span> Rotimi{' '}
-          <span className="text-muted font-sans text-sm">family tree</span>
-        </h1>
-        {data && <Search data={data} onSelect={setFocusId} />}
+        <span className="font-display text-xl mr-auto">
+          Ajai <span className="text-brass">·</span> Rotimi
+        </span>
+        <nav className="flex items-center gap-4 text-sm">
+          <a href="tree/" className="text-muted hover:text-brass">
+            Family tree
+          </a>
+        </nav>
+        {data && <Search data={data} onSelect={goToPerson} />}
       </header>
 
-      {data?.meta.placeholder && (
-        <div className="bg-brass/10 border-b border-brass/40 text-brass text-xs px-4 py-2">
-          Sample data only — replace <code className="font-mono">family-data.json</code>{' '}
-          with the real dataset to see the full tree.
-        </div>
-      )}
-
-      {error && (
-        <p role="alert" className="p-6 text-red-600">
-          {error}
+      <section className="max-w-5xl mx-auto px-4 pt-10 pb-6 text-center">
+        <h1 className="font-display text-3xl sm:text-5xl leading-tight [text-wrap:balance]">
+          Odò tí ó bá gbàgbé orísun rẹ̀ á gbẹ
+        </h1>
+        <p className="mt-3 text-muted italic">
+          “A river that forgets its source will dry up.”
         </p>
-      )}
-      {!data && !error && <p className="p-6 text-muted">Loading the family…</p>}
+        <p className="mt-5 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+          The Ajai and Rotimi family — from{' '}
+          <span className="text-brass">Ara-Ikole, Ekiti, Nigeria</span> to England,
+          Scotland, the Netherlands, Turkey and Australia. Every pin below is a place
+          where our family was born, married, lived or was laid to rest.
+        </p>
 
-      {data && focus && (
-        <div className="grid lg:grid-cols-[1fr_360px] gap-4 p-4">
-          <section aria-label="Tree" className="min-w-0">
-            <Tree data={data} focusId={focus.id} onFocus={setFocusId} />
-          </section>
-          <Profile
-            data={data}
-            person={focus}
-            onFocus={setFocusId}
-            onSuggestEdit={() => setModal('edit')}
-            onAddRelative={() => setModal('add')}
-          />
-        </div>
-      )}
+        {data && (
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto">
+            {[
+              [data.people.length, 'people'],
+              [data.families.length, 'families'],
+              [pins.length, 'places'],
+              [countries, 'countries'],
+            ].map(([n, label]) => (
+              <div key={label} className="bg-card border border-line rounded-xl py-4">
+                <div className="font-display text-3xl text-brass">{n}</div>
+                <div className="font-mono text-[10px] uppercase tracking-widest text-muted mt-1">
+                  {label}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
-      {data && focus && (
-        <div className="px-4 pb-6">
-          <button
-            type="button"
-            onClick={() => setModal('report')}
-            className="text-xs text-muted hover:text-brass underline underline-offset-2"
+      <section className="max-w-5xl mx-auto px-4 pb-10" aria-label="Family places map">
+        {error && (
+          <p role="alert" className="text-red-600">
+            {error}
+          </p>
+        )}
+        {!data && !error && <p className="text-muted">Loading the family…</p>}
+        {data && <WorldMap data={data} onSelectPerson={goToPerson} />}
+
+        <div className="mt-8 text-center">
+          <a
+            href="tree/"
+            className="inline-block bg-brass text-white rounded-md px-6 py-3 font-medium hover:opacity-90"
           >
-            Something wrong on this page? Report it.
-          </button>
+            Explore the family tree →
+          </a>
+          <p className="mt-3 text-xs text-muted">
+            Click any pin to see who belongs to that place, or search a name above.
+          </p>
         </div>
-      )}
+      </section>
 
       <footer className="border-t border-line px-4 py-3 flex justify-between text-[11px] text-muted">
         <span>
@@ -91,19 +110,6 @@ export default function Viewer() {
           Family console
         </a>
       </footer>
-
-      {data && focus && modal && (
-        <SuggestModal
-          data={data}
-          target={focus}
-          mode={modal}
-          delivery={adapter.mode === 'apps-script' ? 'queued' : 'download'}
-          onClose={() => setModal(null)}
-          onSubmit={async (sug) => {
-            await adapter.submitSuggestion(sug);
-          }}
-        />
-      )}
     </main>
   );
 }

@@ -15,12 +15,17 @@ import type {
   Suggestion,
 } from '@/lib/types';
 
-function show(value: unknown): string {
+function show(value: unknown): React.ReactNode {
   if (value === null || value === undefined || value === '') return '—';
   if (typeof value === 'object' && value !== null && 'date' in (value as object)) {
     return formatEvent(value as EventInfo) || '—';
   }
-  return String(value);
+  const s = String(value);
+  if (/^data:image\//.test(s) || (/^https:/.test(s) && /\.(png|jpe?g|webp|gif)(\?|$)/i.test(s))) {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src={s} alt="Photo" className="h-20 w-20 object-cover rounded-md border border-line" />;
+  }
+  return s;
 }
 
 const FIELD_LABELS: Record<string, string> = {
@@ -44,7 +49,7 @@ const FIELD_LABELS: Record<string, string> = {
 function DiffTable({
   rows,
 }: {
-  rows: { label: string; before: string; after: string; changed: boolean }[];
+  rows: { label: string; before: React.ReactNode; after: React.ReactNode; changed: boolean }[];
 }) {
   return (
     <table className="w-full text-sm border-collapse">

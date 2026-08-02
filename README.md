@@ -3,9 +3,14 @@
 An interactive family tree relatives can view and propose changes to. Nothing
 goes live until Kelly approves it in the console.
 
-Three surfaces, one codebase:
+Four surfaces, one codebase:
 
-- **Viewer** (`/`) — public, read-only tree + person profiles, with search.
+- **Places** (`/`) — the front page: the Yoruba proverb *Odò tí ó bá gbàgbé
+  orísun rẹ̀ á gbẹ* over a world map with a pin for every place in the
+  family's records. Pins open the list of family members tied to that place
+  and link into the tree. Place matching lives in `lib/places.ts` — add a new
+  entry to the gazetteer there when the family reaches somewhere new.
+- **Viewer** (`/tree`) — public, read-only tree + person profiles, with search.
 - **Suggest** — from any profile: *Suggest an edit*, *Add a relative*, or
   *Report a problem*. Every submission becomes a **pending suggestion**, never
   a direct write.
@@ -94,6 +99,16 @@ snapshot in the `audit` tab so it can be undone.
 | `lib/adapter.ts` | Pluggable data layer (static files ⇄ Apps Script) |
 | `lib/config.ts` | `APPS_SCRIPT_URL` backend switch |
 | `apps-script/Code.gs` | Google Apps Script backend + setup instructions |
+
+## Photos
+
+Relatives can attach a photo when suggesting an edit or adding a person. The
+photo is resized in their browser (max 640px, JPEG) before it is submitted,
+so nothing heavy ever travels. In zero-backend mode the approved photo is
+stored inside `family-data.json` as a data URI; in Apps Script mode the
+backend saves it to Google Drive (optionally into the folder named by the
+`PHOTOS_FOLDER_ID` Script Property) and stores the link instead. Approved
+photos appear on the person's profile.
 
 ## Notes
 
