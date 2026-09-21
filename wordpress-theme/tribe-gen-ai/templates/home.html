@@ -1,0 +1,37 @@
+<!-- wp:group {"tagName":"main","className":"blog-page","layout":{"type":"default"}} -->
+<main class="wp-block-group blog-page">
+<!-- wp:pattern {"slug":"tribe-gen-ai/blog-hero"} /-->
+<!-- wp:group {"tagName":"section","className":"blog-index","layout":{"type":"default"}} -->
+<section class="wp-block-group blog-index">
+<!-- wp:pattern {"slug":"tribe-gen-ai/blog-index-open"} /-->
+<!-- wp:query {"queryId":1,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true}} -->
+<div class="wp-block-query">
+<!-- wp:post-template {"className":"story-grid-loop"} -->
+<!-- wp:group {"className":"story-card","layout":{"type":"default"}} -->
+<div class="wp-block-group story-card">
+<!-- wp:group {"className":"story-meta","layout":{"type":"default"}} -->
+<div class="wp-block-group story-meta">
+<!-- wp:post-date {"format":"m.y"} /-->
+</div>
+<!-- /wp:group -->
+<!-- wp:post-terms {"term":"category","className":"story-tag","separator":" · "} /-->
+<!-- wp:post-title {"level":3,"isLink":true} /-->
+<!-- wp:post-excerpt {"moreText":"","excerptLength":28} /-->
+<!-- wp:html -->
+<b class="story-read">READ <i>↗</i></b>
+<!-- /wp:html -->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+</div>
+<!-- /wp:query -->
+</section>
+<!-- /wp:group -->
+<!-- wp:pattern {"slug":"tribe-gen-ai/blog-closing"} /-->
+</main>
+<!-- /wp:group -->

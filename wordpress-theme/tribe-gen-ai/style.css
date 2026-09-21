@@ -1,0 +1,16 @@
+/*
+Theme Name: Tribe Gen AI
+Theme URI: https://tribegenai.com
+Author: Tribe Gen AI
+Author URI: https://tribegenai.com
+Description: Custom block theme for Tribe Gen AI — AI for retail, human at heart. Forest green, black and signal yellow with editorial serif type. Converted from the approved Tribe Gen AI rebrand design.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tribe-gen-ai
+*/
+
+/* Styles are enqueued from assets/css/ — see functions.php. */
